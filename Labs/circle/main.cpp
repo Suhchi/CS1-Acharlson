@@ -34,7 +34,7 @@ int main()
 
     string name = "Anonymous"; 
     //variable to store username
-    cout << "Hi there, what is your full name? \n(leave blank to remain anonymous)\t ";
+    cout << "Hi there, what is your full name? ";
     getline(cin, name); //(Fixed)
 
     cout << "Nice meeting you " << name << "!" << endl;
@@ -52,9 +52,9 @@ int main()
     // Calculates the area = pi*(radius)^2 using the power function
     circumference = pi * radius * 2 ;
     // Calculates circumference using 2r * pi
-    cout << "Your circle has the radius: " << fixed << setprecision(6) << radius << endl;
-    cout << "Your circle has the area:\t " << area << '\n';
-    cout << "Your circle's circumference is: \t " << circumference << endl;
+    cout << "Your circle has the radius:    \t " << fixed << setprecision(6) << radius << endl;
+    cout << "Your circle has the area:      \t " << area << '\n';
+    cout << "Your circle's circumference is:\t " << circumference << endl;
 
 
     cout << "Good bye... \nHit enter to exit the program!" << '\n';
