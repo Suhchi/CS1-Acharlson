@@ -12,10 +12,10 @@
 
 ## Assignments
 
-### Assignment #1 
+### Assignment 1 
 - DNF
 
-### Assignment #2
+### Assignment 2
 | Name | Value |
 |:---|:---|
 | Name | 2 - Triangle |
